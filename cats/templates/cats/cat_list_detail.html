@@ -1,0 +1,11 @@
+{% extends 'base.html' %} {% block content%}
+<p>There are {{num}} cats in total!</p>
+{% for cat in obj %}
+<p>This is No.{{ forloop.counter}} cat</p>
+<ul>
+    <li><a href="{{cat.get_absolute_url}}">Link to {{cat.name}}</a></li>
+    <li>age:{{cat.age}} </li>
+    <li>color: {{cat.color}}</li>
+
+</ul>
+{% endfor %} {% endblock %}
