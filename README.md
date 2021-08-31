@@ -2,7 +2,10 @@
 
 This django project is a step-by-step practice from Youtube videos, the source code is from https://github.com/codingforentrepreneurs/Try-Django
 
+This project is the first easy try using Django Framework.The customized apps includes:
+- pages.   This app aims to quickly go through from the url pattern to view controller,introducing some common settings running a app(service).
 
+## Git command lines to conect the local repository to remote repository.
 ### create a new repository on the command line
 ```
 echo "# trydjango" >> README.md
